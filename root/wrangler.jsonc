@@ -1,0 +1,14 @@
+// https://bytebitbybit.com: the company page and app-ads.txt (the Play listing's website).
+{
+  "name": "bytebitbybit",
+  "compatibility_date": "2026-11-23",
+  "assets": {
+    "directory": "./public",
+    // /privacy-policy serves privacy-policy/index.html without a redirect.
+    "html_handling": "drop-trailing-slash"
+  },
+  "routes": [
+    { "pattern": "bytebitbybit.com", "custom_domain": true },
+    { "pattern": "www.bytebitbybit.com", "custom_domain": true }
+  ]
+}

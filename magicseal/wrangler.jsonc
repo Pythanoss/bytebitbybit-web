@@ -1,0 +1,13 @@
+// https://magicseal.bytebitbybit.com: Magic Seal's page, privacy policy and app-ads.txt.
+{
+  "name": "magicseal",
+  "compatibility_date": "2026-11-23",
+  "assets": {
+    "directory": "./public",
+    // /privacy-policy serves privacy-policy/index.html without a redirect.
+    "html_handling": "drop-trailing-slash"
+  },
+  "routes": [
+    { "pattern": "magicseal.bytebitbybit.com", "custom_domain": true }
+  ]
+}
